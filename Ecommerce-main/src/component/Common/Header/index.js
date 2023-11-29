@@ -104,7 +104,7 @@ const Header = () => {
                                 <div className="col-12 d-flex align-items-center py-2 px-5 justify-content-between">
                                     <div className="header-logo">
                                         <div className="logo">
-                                            <Link to="/"><h4 className=' logo-color'>Ecommerce</h4></Link>
+                                        <Link to="/"><img src={logo} alt="logo" /></Link>
                                         </div>
                                     </div>
                                     {/* <div className="main-menu menu-color--black menu-hover-color--golden d-none d-xl-block">

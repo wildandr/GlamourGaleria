@@ -3,7 +3,7 @@ import logo from '../../../assets/img/logo.png'
 import payment from '../../../assets/img/common/payment.png'
 import { Link } from 'react-router-dom'
 import Cookie from '../Cookie'
-import NewsletterModal from '../NewsletterModal'
+
 import { useSelector } from "react-redux"
 import { useDispatch } from "react-redux";
 import Swal from 'sweetalert2'
@@ -174,7 +174,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                             <div className="copyright_left">
-                                <h6>© CopyRight 2022 <span>AndShop</span></h6>
+                                <h6>© CopyRight 2023 <span></span></h6>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -188,7 +188,7 @@ const Footer = () => {
             {
                 cookie ? <Cookie accept={acceptCookie} cancel={cancelCookie} /> : null
             }
-            <NewsletterModal show={promoCenter} stop={stopPromoModal} start={startPromoModal} />
+           
         </>
     )
 }

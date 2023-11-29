@@ -16,8 +16,9 @@ const Fashion = () => {
         <>
             <Header />
             <Banner />
+            <BannerBottom />
             <HotProduct />
-          
+            <Footer />
         </>
     )
 }

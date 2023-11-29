@@ -68,6 +68,10 @@
     #countdown_two li {
         margin-left: 20px;
     }
+    .mobile-menu-logo .logo {
+        width: 250px;
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 992px) {
@@ -280,6 +284,10 @@
         padding: 0 105px;
         padding-bottom: 30px;
     }
+    .mobile-menu-logo .logo {
+        width: 200px;
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 767px) {
@@ -456,6 +464,10 @@
 
     .newsleetre_modal.modal-body .offer_modal_left {
         padding: 25px 35px;
+    }
+    .mobile-menu-logo .logo {
+        width: 200px;
+        overflow: hidden;
     }
 }
 
