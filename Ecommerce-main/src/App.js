@@ -5,12 +5,7 @@ import Loading from './component/Common/loader';
 import pMinDelay from 'p-min-delay';
 
 // All Page Lazy Import
-const Furniture = loadable(() => pMinDelay(import('./page/furniture'), 250), { fallback: <Loading /> });
-const Electronics = loadable(() => pMinDelay(import('./page/electronics'), 250), { fallback: <Loading /> });
-const Grocery = loadable(() => pMinDelay(import('./page/grocery'), 250), { fallback: <Loading /> });
-const Pharmacy = loadable(() => pMinDelay(import('./page/pharmacy'), 250), { fallback: <Loading /> });
-const Jewllary = loadable(() => pMinDelay(import('./page/jewllary'), 250), { fallback: <Loading /> });
-const BabyToys = loadable(() => pMinDelay(import('./page/baby-toys'), 250), { fallback: <Loading /> });
+
 const ShopGrid = loadable(() => pMinDelay(import('./page/shop'), 250), { fallback: <Loading /> });
 const ShopTwo = loadable(() => pMinDelay(import('./page/shop/shop-two'), 250), { fallback: <Loading /> });
 const ShopList = loadable(() => pMinDelay(import('./page/shop/shop-list'), 250), { fallback: <Loading /> });
@@ -73,12 +68,6 @@ const App = () => {
           <ScrollToTop />
           <Switch>
             <Route path='/' exact component={Fashion} />
-            <Route path='/furniture' exact component={Furniture} />
-            <Route path='/electronics' exact component={Electronics} />
-            <Route path='/grocery' exact component={Grocery} />
-            <Route path='/pharmacy' exact component={Pharmacy} />
-            <Route path='/jewllary' exact component={Jewllary} />
-            <Route path='/baby-toys' exact component={BabyToys} />
             <Route path='/shop' exact component={ShopGrid} />
             <Route path='/shopTwo' exact component={ShopTwo} />
             <Route path='/shoplist' exact component={ShopList} />

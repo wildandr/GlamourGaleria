@@ -107,7 +107,7 @@ const Header = () => {
                                         <Link to="/"><img src={logo} alt="logo" /></Link>
                                         </div>
                                     </div>
-                                    {/* <div className="main-menu menu-color--black menu-hover-color--golden d-none d-xl-block">
+                                    <div className="main-menu menu-color--black menu-hover-color--golden d-none d-xl-block">
                                         <nav>
                                             <ul>
                                                 {MenuData.map((item, index) => (
@@ -115,7 +115,7 @@ const Header = () => {
                                                 ))}
                                             </ul>
                                         </nav>
-                                    </div> */}
+                                    </div>
 
                                     <ul className="header-action-link action-color--black action-hover-color--golden">
                                         <li>
@@ -324,9 +324,6 @@ const Header = () => {
 
                     </div>
                     <div className="mobile-contact-info">
-                        <div className="logo">
-                            <Link to="/"><img src={logoWhite} alt="img" /></Link>
-                        </div>
                         <address className="address">
                             <span>Address: Your address goes here.</span>
                             <span>Call Us: 0123456789, 0123456789</span>
@@ -364,7 +361,7 @@ const Header = () => {
                 </div>
                 <div className="mobile-contact-info">
                     <address className="address">
-                        <img src={logoWhite} alt="logo" />
+                       
                         <span>Address: Your address goes here.</span>
                         <span>Call Us: 0123456789, 0123456789</span>
                         <span>Email: demo@example.com</span>
@@ -387,6 +384,7 @@ const Header = () => {
                         <li><Link to="/wishlist">Wishlist</Link></li>
                         <li><Link to="/cart">Cart</Link></li>
                         <li><Link to="/checkout-one">Checkout</Link></li>
+                        <li><Link to="/vendor-dashboard">Products</Link></li>
                     </ul>
                 </div>
             </div>
