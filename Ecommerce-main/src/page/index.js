@@ -6,7 +6,6 @@ import Trending from '../component/Fashion/Trending'
 import TodayDeal from '../component/Fashion/TodayDeal'
 import OfferTime from '../component/Fashion/OfferTime'
 import Blog from '../component/Fashion/Blog'
-import InstgramSlider from '../component/Common/Instagram'
 import Footer from '../component/Common/Footer'
 import Header from '../component/Common/Header'
 

@@ -1,6 +1,5 @@
 import React from 'react'
-import BarChart from '../VendorDashboard/BarChart'
-import LineChart from '../VendorDashboard/LineChart'
+
 import { useSelector } from "react-redux"
 import { Link } from 'react-router-dom'
 
@@ -26,18 +25,6 @@ const DashBoard = () => {
                     <div className="vendor_top_box">
                         <h2>50</h2>
                         <h4>Total Pending</h4>
-                    </div>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-lg-6">
-                    <div className="mychart_area">
-                        <LineChart />
-                    </div>
-                </div>
-                <div className="col-lg-6">
-                    <div className="mychart_area">
-                        <BarChart />
                     </div>
                 </div>
             </div>

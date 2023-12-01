@@ -10,35 +10,9 @@ import img8 from '../../assets/img/product-image/product8.png'
 import img9 from '../../assets/img/product-image/product9.png'
 import img10 from '../../assets/img/product-image/product10.png'
 
-// furniture img 
-import imgf1 from '../../assets/img/furniture/product/1.jpg'
-import imgf2 from '../../assets/img/furniture/product/2.jpg'
-import imgf3 from '../../assets/img/furniture/product/3.jpg'
-import imgf4 from '../../assets/img/furniture/product/4.jpg'
-import imgf5 from '../../assets/img/furniture/product/5.jpg'
-import imgf6 from '../../assets/img/furniture/product/6.jpg'
-import imgf7 from '../../assets/img/furniture/product/7.jpg'
-import imgf8 from '../../assets/img/furniture/product/8.jpg'
-import imgf9 from '../../assets/img/furniture/product/9.jpg'
-import imgf10 from '../../assets/img/furniture/product/10.jpg'
 
-// electronics img 
-import imge1 from '../../assets/img/electronics/product/1.jpg'
-import imge2 from '../../assets/img/electronics/product/2.jpg'
-import imge3 from '../../assets/img/electronics/product/3.jpg'
-import imge4 from '../../assets/img/electronics/product/4.jpg'
-import imge5 from '../../assets/img/electronics/product/5.jpg'
-import imge6 from '../../assets/img/electronics/product/6.jpg'
-import imge7 from '../../assets/img/electronics/product/7.jpg'
-import imge8 from '../../assets/img/electronics/product/8.jpg'
-import imge9 from '../../assets/img/electronics/product/9.jpg'
-import imge10 from '../../assets/img/electronics/product/10.jpg'
 
-// pharmacy img 
-import Pro1 from '../../assets/img/pharmacy/product/pro-1.png'
-import Pro2 from '../../assets/img/pharmacy/product/pro-2.png'
-import Pro3 from '../../assets/img/pharmacy/product/pro-3.png'
-import Pro4 from '../../assets/img/pharmacy/product/pro-4.png'
+
 
 
 export const ProductData = [

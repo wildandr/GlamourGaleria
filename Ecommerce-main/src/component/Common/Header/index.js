@@ -96,6 +96,7 @@ const Header = () => {
 
     return (
         <>
+        <TopHeader />
             <header className="header-section d-none d-xl-block">
                 <div className="header-wrapper">
                     <div className="header-bottom header-bottom-color--golden section-fluid sticky-header sticky-color--golden">
@@ -107,7 +108,7 @@ const Header = () => {
                                         <Link to="/"><img src={logo} alt="logo" /></Link>
                                         </div>
                                     </div>
-                                    <div className="main-menu menu-color--black menu-hover-color--golden d-none d-xl-block">
+                                    {/* <div className="main-menu menu-color--black menu-hover-color--golden d-none d-xl-block">
                                         <nav>
                                             <ul>
                                                 {MenuData.map((item, index) => (
@@ -115,7 +116,7 @@ const Header = () => {
                                                 ))}
                                             </ul>
                                         </nav>
-                                    </div>
+                                    </div> */}
 
                                     <ul className="header-action-link action-color--black action-hover-color--golden">
                                         <li>
